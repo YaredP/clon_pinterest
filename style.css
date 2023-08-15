@@ -1,0 +1,67 @@
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+img{
+    background-color: transparent;
+    border-color: transparent;
+    width: 20px;
+    height: 20px;
+}
+img:hover{
+    background-color: #cad2c5;
+    cursor: pointer;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px 
+  }
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;margin-left: -60px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+button{
+    background-color: transparent;
+    border-color: transparent;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-size: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+button:hover{
+    border-radius: 20px;
+    background-color: #cad2c5;
+}
+.buscador{
+    width: 400px;
+    height: 20px;
+    border-radius: 15px;
+    border: 1px solid #cad2c5;
+}
+.arrow-down{
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+}
+
