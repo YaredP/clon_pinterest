@@ -2,23 +2,46 @@
 nav{
     display: flex;
     justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
-img{
+
+.icono{
     background-color: transparent;
     border-color: transparent;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
 }
-img:hover{
+
+.icono:hover{
     background-color: #cad2c5;
     cursor: pointer;
 }
+
+.buscador{
+    width: 600px;
+    height: 30px;
+    border-radius: 40px;
+    border: 1px solid #cad2c5;
+    background-color: #cad2c5;
+    margin-top: 7px;
+}
+
+::placeholder{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
 .tooltip {
     position: relative;
     display: inline-block;
     border-bottom: 1px 
-  }
-  .tooltip .tooltiptext {
+}
+
+.tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
     background-color: black;
@@ -35,33 +58,61 @@ img:hover{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
 }
+
 .tooltip:hover .tooltiptext {
     visibility: visible;
-  }
+}
+
 button{
     background-color: transparent;
     border-color: transparent;
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    font-size: bold;
     font-size: 16px;
     text-decoration: none;
+    margin-right: 18px;
+    margin-left: 18px;
+    margin-top: 11px;
 }
+
 button:hover{
-    border-radius: 20px;
+    border-radius: 40px;
+    width:auto;
+    height: 30px;
     background-color: #cad2c5;
 }
-.buscador{
-    width: 400px;
-    height: 20px;
-    border-radius: 15px;
-    border: 1px solid #cad2c5;
-}
+
 .arrow-down{
     width: 10px;
     height: 10px;
     margin-left: 10px;
 }
+
+.contenedor{
+    display: inline-block;
+    align-items: center;
+}
+
+.card-image{
+    width: 250px;
+    border-radius: 20px;
+}
+
+img{
+    width: 250px;
+    border-radius: 20px;
+}
+
+.Gallery{
+    columns: 5 250px;
+    column-gap: 10px;
+    }
+
+
+
+
+
+
+
 
