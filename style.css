@@ -94,6 +94,7 @@ button:hover{
     align-items: center;
 }
 
+/*
 .card-image{
     width: 250px;
     border-radius: 20px;
@@ -108,8 +109,29 @@ img{
     columns: 5 250px;
     column-gap: 10px;
     }
+*/
 
+main{
+    align-items: center;
+    align-content: center;
+}
 
+img{
+    max-width: 100%;
+    margin-bottom: 5px;
+    margin left: 5px;
+    margin right: 5px;
+    display: block;
+    border-radius: 20px;
+    width: 255px
+}
+
+.gallery{
+    columns: 5 255px;
+    column-gap: 5px;
+    align-items: center;
+    align-content: center;
+}
 
 
 
