@@ -86,7 +86,12 @@ button:hover{
 .arrow-down{
     width: 10px;
     height: 10px;
-    margin-left: 10px;
+    margin-left: 70px;
+    margin-top: -13px;
+}
+
+.crear{
+    margin-left: 0px;
 }
 
 .contenedor{
@@ -94,22 +99,6 @@ button:hover{
     align-items: center;
 }
 
-/*
-.card-image{
-    width: 250px;
-    border-radius: 20px;
-}
-
-img{
-    width: 250px;
-    border-radius: 20px;
-}
-
-.Gallery{
-    columns: 5 250px;
-    column-gap: 10px;
-    }
-*/
 
 main{
     align-items: center;
@@ -119,11 +108,11 @@ main{
 img{
     max-width: 100%;
     margin-bottom: 5px;
-    margin left: 5px;
-    margin right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     display: block;
     border-radius: 20px;
-    width: 255px
+    width: 255px;
 }
 
 .gallery{
